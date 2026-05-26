@@ -155,6 +155,7 @@ iam:
       user-invited-join-your-organization-success: Usuário foi convidado para entrar
         na sua organização.
       edit-user-title: Editar Usuário
+      new-user-created: Novo usuário adicionado à organização.
       user-changes-saved-success: Alterações do usuário salvas.
       error-you-cant-delete-yourself: Você não pode se excluir
       data-assosciated-user-delete: Tem certeza de que deseja excluir este usuário?
@@ -170,6 +171,21 @@ iam:
         confirmar, o Fleetbase reenviará o convite para este usuário entrar na sua
         organização.
       invitation-resent: Convite reenviado.
+      invite-user: Convidar Usuário
+    invite:
+      title: Convidar Usuário
+      description: >-
+        Insira o endereço de e-mail da pessoa que deseja convidar. Se ela já tiver
+        uma conta Fleetbase, receberá um convite para ingressar na sua organização.
+        Se for um novo usuário, uma conta pendente será criada e será solicitado
+        que defina uma senha ao aceitar.
+      email-placeholder: colega@exemplo.com
+      name-placeholder: Nome completo (obrigatório para novos usuários)
+      name-help: Necessário apenas se a pessoa ainda não tiver uma conta Fleetbase.
+      send-invitation: Enviar Convite
+      email-required: Por favor, insira um endereço de e-mail.
+      invitation-sent-existing: Convite enviado. O usuário receberá um e-mail para ingressar na sua organização.
+      invitation-sent-new: Convite enviado. Uma conta pendente foi criada e o usuário será solicitado a definir uma senha.
   application:
     access-management: Gerenciamento de Acesso
   home:
