@@ -190,3 +190,61 @@ iam:
     access-management: Gerenciamento de Acesso
   home:
     identity-access-management: Gerenciamento de Identidade e Acesso
+  ldap:
+    common:
+      host: Host LDAP
+      port: Porta LDAP
+      base-dn: Base DN
+      bind-dn: Bind DN
+      bind-password: Senha Bind
+      group-base-dn: Base DN do Grupo
+      test-connection: Testar Conexão
+      connection-successful: Conexão bem-sucedida
+      connection-failed: Falha na conexão
+    config:
+      title: Configuração LDAP
+      description: Configure as definições de conexão LDAP para autenticação
+      save-config: Salvar Configuração LDAP
+      config-saved: Configuração LDAP salva com sucesso
+      config-saved-error: Falha ao salvar configuração LDAP
+      enter-ldap-host: Digite o nome do host LDAP ou IP
+      enter-ldap-port: Digite a porta do servidor LDAP (padrão 389)
+      enter-base-dn: Digite a Base DN (ex., dc=exemplo,dc=com)
+      enter-bind-dn: Digite a Bind DN para conexão LDAP
+      enter-bind-password: Digite a senha para a Bind DN
+    group-filter:
+      title: Grupos LDAP
+      description: Sincronize e gerencie membros de grupos LDAP
+      load-groups: Carregar Grupos
+      loading: Carregando grupos...
+      view-members: Ver Membros
+      sync-users: Sincronizar Usuários
+      members-of: Membros de
+      no-groups: Nenhum grupo LDAP encontrado
+      group-not-found: Grupo não encontrado
+      sync-group: Sincronizar Grupo
+      sync-started: Sincronizando usuários do grupo...
+      sync-completed: Sincronizados {count} usuários de {groupName}
+      sync-error: Falha ao sincronizar grupo
+      member-count: '{count} membros'
+    groups:
+      manager:
+        name: Gerenciador
+        description: Grupo Fleetbase Manager
+      drivers:
+        name: Motoristas
+        description: Grupo Fleetbase Drivers
+    login:
+      ldap-login: Login LDAP
+      username: Nome de usuário
+      password: Senha
+      login-button: Entrar
+      login-failed: Falha no login LDAP
+      user-not-in-group: Usuário não está no grupo obrigatório
+      authenticating: Autenticando...
+    table:
+      name: Nome
+      email: Email
+      username: Nome de usuário
+      display-name: Nome de Exibição
+      no-members: Nenhum membro encontrado

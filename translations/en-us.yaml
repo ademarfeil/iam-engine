@@ -176,6 +176,64 @@ iam:
       access-management: Access Management
   home:
       identity-access-management: Identity & Access Management
+  ldap:
+    common:
+      host: LDAP Host
+      port: LDAP Port
+      base-dn: Base DN
+      bind-dn: Bind DN
+      bind-password: Bind Password
+      group-base-dn: Group Base DN
+      test-connection: Test Connection
+      connection-successful: Connection successful
+      connection-failed: Connection failed
+    config:
+      title: LDAP Configuration
+      description: Configure LDAP connection settings for authentication
+      save-config: Save LDAP Configuration
+      config-saved: LDAP configuration saved successfully
+      config-saved-error: Failed to save LDAP configuration
+      enter-ldap-host: Enter LDAP server hostname or IP
+      enter-ldap-port: Enter LDAP server port (default 389)
+      enter-base-dn: Enter Base DN (e.g., dc=example,dc=com)
+      enter-bind-dn: Enter Bind DN for LDAP connection
+      enter-bind-password: Enter password for Bind DN
+    group-filter:
+      title: LDAP Groups
+      description: Sync and manage LDAP group members
+      load-groups: Load Groups
+      loading: Loading groups...
+      view-members: View Members
+      sync-users: Sync Users
+      members-of: Members of
+      no-groups: No LDAP groups found
+      group-not-found: Group not found
+      sync-group: Sync Group
+      sync-started: Syncing group users...
+      sync-completed: Synced {count} users from {groupName}
+      sync-error: Failed to sync group
+      member-count: '{count} members'
+    groups:
+      manager:
+        name: Manager
+        description: Fleetbase Manager Group
+      drivers:
+        name: Drivers
+        description: Fleetbase Drivers Group
+    login:
+      ldap-login: LDAP Login
+      username: Username
+      password: Password
+      login-button: Login
+      login-failed: LDAP login failed
+      user-not-in-group: User is not in required group
+      authenticating: Authenticating...
+    table:
+      name: Name
+      email: Email
+      username: Username
+      display-name: Display Name
+      no-members: No members found
   
       
 
